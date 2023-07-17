@@ -1,7 +1,16 @@
+#This folder is creating on the 'dependencies' stage.
 node_modules
+
+#This folder is creating on the 'build' stage.
 dist
+
+# git is not required inside the image
+.git
 .gitignore
-.env*
+
+# .env is ignoring
+.env
+
 DockerFile
 .dockerignore
 README.md
